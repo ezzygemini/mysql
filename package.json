@@ -1,0 +1,21 @@
+{
+  "name": "mysql",
+  "description": "A repo for managing mysql database",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ezzygemini/mysql.git"
+  },
+  "license": "MIT",
+  "version": "0.1.0",
+  "scripts": {
+    "test": "node node_modules/testing"
+  },
+  "dependencies": {
+    "argument": "ezzygemini/argument",
+    "environment": "ezzygemini/environment",
+    "mysql": "^2.13.0"
+  },
+  "devDependencies": {
+    "testing": "ezzygemini/testing"
+  }
+}
